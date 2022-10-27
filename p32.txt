@@ -1,0 +1,19 @@
+import java.io.BufferedReader;
+
+public class s14
+{	
+	public static void main(String args)throwsIOException
+	{
+		System.out.println("請問要在第幾次結束迴圈呢?(1~10)")；
+		BufferedReader br=
+			new BufferedReader(new InputStreamReader(System.in))；
+		string str = br.readLine();
+		int res = Integer.parseInt(str);
+		for(i=0;i<10;i++){
+			System.out.println("第"+i+"次的處理")；
+			if(i==res)
+				break;
+		
+		}
+	}
+}

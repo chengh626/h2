@@ -1,0 +1,31 @@
+import java.io.BufferedReader;
+
+public class s5
+{	
+	public static void main(String args)throwsIOException
+	{
+		System.out.println("請輸入變數")；
+		BufferedReader br=
+			new BufferedReader(new InputStreamReader(System.in))；
+		int num = Integer.parseInt(br.readLine())；
+		switch(num)
+		{
+			case1:
+			{
+				System.out.println("輸入的是1")；
+				break;
+			}
+			case2:
+			{
+				System.out.println("輸入的是2")；
+				break;
+			}
+			default:
+			{
+				System.out.println("請輸入1或2")；
+				break;
+			}
+		}
+	}
+		
+}
